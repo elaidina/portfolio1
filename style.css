@@ -39,6 +39,7 @@ nav ul {
   list-style-type: none;
   display: flex;
   justify-content: space-arounds;
+  flex-wrap: wrap;
 }
 nav ul li {
   margin: 0 10px;
@@ -205,18 +206,6 @@ footer {
   background-color: rgb(194, 192, 192);
 }
 
-@media (max-width: 750px) {
-  aside {
-    display: none;
-  }
-  .main {
-    width: 100vw;
-  }
-  .about {
-    height: 50vh;
-  }
-}
-
 .form {
   height: 90vh;
   display: flex;
@@ -250,4 +239,22 @@ footer {
 }
 .form label {
   padding: 5px;
+}
+
+@media (max-width: 750px) {
+  aside {
+    display: none;
+  }
+  .main {
+    width: 100vw;
+  }
+  .welcome {
+    top: 120px;
+  }
+  .about {
+    height: 50vh;
+  }
+  nav ul {
+    flex-direction: column;
+  }
 }
