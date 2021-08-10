@@ -225,6 +225,11 @@ footer {
   background-color: lightblue;
 }
 
+.thanks {
+  text-align: center;
+  height: 20vh;
+}
+
 .formContainer {
   background-color: lightcyan;
   padding: 0 4rem;
