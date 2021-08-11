@@ -6,12 +6,18 @@ const navbar = document.querySelector("Nav");
 const timeEl = document.querySelector(".time");
 const time = new Date();
 console.log(time);
-timeEl.innerText = time;
+if (timeEl) {
+  timeEl.innerText = time;
+}
+
 setTimeout(() => {
   const time = new Date();
   console.log(time);
-  timeEl.innerText = time;
+  if (timeEl) {
+    timeEl.innerText = time;
+  }
 }, 1000);
+
 let isDark = false;
 darkBtn.addEventListener("click", toggleColor);
 
