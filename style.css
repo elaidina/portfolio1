@@ -267,12 +267,13 @@ footer {
 
 .messageBtn:active {
   background-color: crimson;
+}
 
 /* Projects*/
 .projectsContainer {
   height: 100vh;
-
-  background: linear-gradient(#e66465, #9198e5);
+  background: linear-gradient(aliceblue, rgb(194, 192, 192));
+  /* background: linear-gradient(#e66465, #9198e5); */
 }
 
 @media (max-width: 750px) {
