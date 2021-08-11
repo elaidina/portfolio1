@@ -270,6 +270,10 @@ footer {
 }
 
 /* Projects*/
+.projectsH1 {
+  background-color: transparent;
+  text-align: center;
+}
 .projectsContainer {
   padding-top: 2rem;
   min-height: 100vh;
@@ -291,11 +295,13 @@ footer {
 .card:hover {
   box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.8);
 }
+
 .cardTitle {
   background-color: white;
   border-radius: 10px;
   height: 2rem;
   margin: 1rem;
+  text-align: center;
 }
 .cardPic {
   background-color: white;
