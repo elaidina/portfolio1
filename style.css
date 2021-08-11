@@ -189,7 +189,7 @@ aside div {
 
 .pic {
   height: 80vh;
-  background: url("doodle.png") no-repeat center center/cover;
+  background: url("doodle2.png") no-repeat center center/cover;
   font-size: 1.7rem;
   text-align: center;
   line-height: 1.5;
@@ -333,4 +333,8 @@ footer {
   nav ul {
     flex-direction: column;
   }
+  .pic {
+    height: 80vh;
+    background: url("doodle.png") no-repeat center center/cover;
+    
 }
