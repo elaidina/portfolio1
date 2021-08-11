@@ -35,6 +35,9 @@ nav {
   flex-direction: row;
   justify-content: space-between;
   width: 100%;
+
+  /* position: fixed;
+  z-index: 100; */
 }
 nav ul {
   list-style-type: none;
@@ -101,6 +104,7 @@ aside div {
   padding: 10px;
   border: 2px solid tomato;
   border-radius: 10px;
+  /* position: fixed; */
 }
 .welcome2 {
   background-color: whitesmoke;
