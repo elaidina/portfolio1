@@ -56,6 +56,7 @@ aside {
   height: 90vh;
   width: 30vw;
   background-color: tomato;
+  z-index: -11;
 }
 
 aside div {
@@ -78,6 +79,15 @@ aside div {
   width: 70vw;
   height: 90vh;
   z-index: 10;
+  overflow: hidden;
+}
+
+.mainAbout {
+  background: url("about.png") no-repeat center center/cover;
+  /* background-color: violet; */
+  width: 70vw;
+  height: 90vh;
+  z-index: -10;
   overflow: hidden;
 }
 
@@ -322,7 +332,8 @@ footer {
   aside {
     display: none;
   }
-  .main {
+  .main,
+  .mainAbout {
     width: 100vw;
   }
   .welcome {
@@ -340,5 +351,9 @@ footer {
   .pic {
     height: 80vh;
     background: url("doodle.png") no-repeat center center/cover;
+  }
+  .mainAbout {
+    background: url("about.png") no-repeat center center/cover;
+    /* background-color: violet; */
   }
 }
