@@ -4,13 +4,8 @@ const darkBtn = document.getElementById("darkBtn");
 const darkPic = document.querySelector(".dark");
 const navbar = document.querySelector("Nav");
 const timeEl = document.querySelector(".time");
-const time = new Date();
-console.log(time);
-if (timeEl) {
-  timeEl.innerText = time;
-}
 
-setTimeout(() => {
+setInterval(() => {
   const time = new Date();
   console.log(time);
   if (timeEl) {
