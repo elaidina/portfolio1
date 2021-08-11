@@ -333,8 +333,11 @@ footer {
   nav ul {
     flex-direction: column;
   }
+}
+
+@media (max-width: 1000px) {
   .pic {
     height: 80vh;
     background: url("doodle.png") no-repeat center center/cover;
-    
+  }
 }
