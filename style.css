@@ -63,7 +63,7 @@ aside {
 }
 
 aside div {
-  height: 150px;
+  min-height: 150px;
   width: 85%;
   background-color: rgb(179, 177, 248);
   margin: 10px;
