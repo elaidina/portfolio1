@@ -1,1 +1,56 @@
-ladybug.css
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serifs;
+  font-size: 1.5rem;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.logo {
+  margin: 15px;
+}
+.logo img {
+  height: 35px;
+  width: 30px;
+  border-radius: 50%;
+}
+
+.dark {
+  height: 60px;
+}
+
+.darkBtn {
+  border: 0;
+  background-color: transparent;
+}
+
+nav {
+  background-color: aliceblue;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+
+  /* position: fixed;
+  z-index: 100; */
+}
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-arounds;
+  flex-wrap: wrap;
+}
+nav ul li {
+  margin: 0 10px;
+}
+header {
+  /* background: url("31.png") no-repeat center center/cover; */
+
+  height: 90vh;
+  display: flex;
+}
